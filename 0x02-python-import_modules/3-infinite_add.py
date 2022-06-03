@@ -5,13 +5,12 @@ if __name__ == "__main__":
     count = len(sys.argv)
     result = 0
 
-    if count == 1:
+    '''if count == 1:
         print("{}".format(result))
-    else:
-        for i in range(1, count):
-            result += int(sys.argv[i])
-
-        print("{}".format(result))
+    else:'''
+    for i in range(1, count):
+        result += int(sys.argv[i])
+    print("{}".format(result))
 '''parser = argparse.ArgumentParser()
     parser.add_argument("number1", help = "first number")
     parser.add_argument("number2", help = "second number")
