@@ -5,8 +5,8 @@ def add(args):
     result = 0
 
     if count > 1:
-        for i in range(1, count):
-            result += int(sys.argv[i])
+        for arg in args:
+            result += int(arg)
         return result
     else:
         return result
