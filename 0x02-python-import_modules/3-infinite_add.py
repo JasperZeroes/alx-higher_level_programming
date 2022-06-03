@@ -1,15 +1,10 @@
 #!/usr/bin/python3
-#!/usr/bin/python3
-from sys import argv
+if __name__ == '__main__':
+    import sys
 
-
-def add(args):
+    count = len(sys.argv)
     result = 0
-    if len(args) > 0:
-        for arg in args:
-            result += int(arg)
-    return result
 
-
-if (__name__ == '__main__'):
-    print(add(argv[1:]))
+    for i in range(1, count):
+        result += int(sys.argv[i])
+    print("{:d}".format(result))
