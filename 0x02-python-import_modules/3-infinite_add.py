@@ -6,12 +6,12 @@ if __name__ == "__main__":
     result = 0
 
     if count == 1:
-        print(f"{result}")
+        print("{}".format(result))
     else:
         for i in range(1, count):
             result += int(sys.argv[i])
 
-        print(f"{result}")
+        print("{}".format(result))
 '''parser = argparse.ArgumentParser()
     parser.add_argument("number1", help = "first number")
     parser.add_argument("number2", help = "second number")
