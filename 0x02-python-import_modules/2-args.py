@@ -10,10 +10,10 @@ if __name__ == "__main__":
     elif count == 2:
         print("{} argument".format(count - 1))
         counter += 1
-        print(counter, ": ", sys.argv[counter])
+        print("{}: {}".format(counter, sys.argv[counter]))
     else:
-        print(len(sys.argv) - 1, "arguments:")
+        print("{} arguments:".format(len(sys.argv) - 1))
 
         for i in range(1, len(sys.argv)):
             counter += 1
-            print(counter, ": ", sys.argv[i])
+            print("{}: {}".format(counter, sys.argv[i]))
