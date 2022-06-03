@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-import sys
-def add(args):
-    count = len(sys.argv)
-    result = 0
+#!/usr/bin/python3
+from sys import argv
 
-    if count > 1:
+
+def add(args):
+    result = 0
+    if len(args) > 0:
         for arg in args:
             result += int(arg)
-        return result
-    else:
-        return result
+    return result
+
 
 if (__name__ == '__main__'):
-    print(add(sys.argv[1:]))
+    print(add(argv[1:]))
