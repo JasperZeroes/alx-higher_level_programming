@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def max_integer(my_list=[]) :
+def max_integer(my_list=[]):
     max_num = []
 
     if not my_list:
@@ -9,8 +9,9 @@ def max_integer(my_list=[]) :
 
     for i in range(len(my_list)):
         if my_list[i] > max_num[0]:
-            max_num[0] = my_list[i] #This will work too;  max_num.insert(0, my_list[i])
-    return max_num[0]    
+            max_num[0] = my_list[i]
+            # This will work too;  max_num.insert(0, my_list[i])
+    return max_num[0]
 
 
 '''def max_integer(my_list=[]):
