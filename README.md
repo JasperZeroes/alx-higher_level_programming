@@ -12,3 +12,10 @@ Projects inside this repository are meant to help us learn how to use and apply 
 ### [0x04-python-more_data_structures](./0x04-python-more_data_structures)
 ### [0x05-python-exceptions](./0x05-python-exceptions)
 ### [0x06-python-classes](./0x06-python-classes)
+
+
+
+______________
+
+### Author 
+ * Chima Obed, Enyeribe - [JasperZeroes](./https://github.com/JasperZeroes)
