@@ -8,9 +8,12 @@
 
 
 def safe_print_integer(value):
-    try:
-        if isinstance(value, int):
+    if isinstance(value, int):
+        try:
             print("{:d}".format(value))
             return True
-    except BaseException:
+        except BaseException:
+            return False
+    else:
         return False
+    
