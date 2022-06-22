@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def safe_print_list(my_list=[], x=0):
+'''def safe_print_list(my_list=[], x=0):
     no = 0
     for i in range(x):
         try:
@@ -8,10 +8,8 @@ def safe_print_list(my_list=[], x=0):
         except IndexError:
             break
     print('')
-    return no
-
-
-'''def safe_print_list(my_list=[], x=0):
+    return no'''
+def safe_print_list(my_list=[], x=0):
     try:
         count = 0
         for i in range(x):
@@ -19,5 +17,5 @@ def safe_print_list(my_list=[], x=0):
             count += 1
     except IndexError:
         pass
-    print("\n")
-    return count'''
+    print()
+    return count
