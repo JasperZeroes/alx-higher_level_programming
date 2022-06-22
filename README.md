@@ -1,9 +1,13 @@
-# Python Directories
+# ALX School Low-level Programming 💻
 
 ## Description
 Projects inside this repository are meant to help us learn how to use and apply the basic fundamental concepts in python as a high level programming language.
 
-## Table of contents
+_______
+# Python Programming Language
+_______
+
+## Table of contents 📂
 
 ### [0x00-python-hello_world](./0x00-python-hello_world)  
 ### [0x01-python-if_else_loops_functions](./0x01-python-if_else_loops_functions)
