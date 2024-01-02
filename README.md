@@ -1,7 +1,7 @@
 # ALX School Low-level Programming 💻
 
 ## Description
-Projects inside this repository are meant to help us learn how to use and apply the basic fundamental concepts in python as a high level programming language.
+* Projects inside this repository are meant to help us learn how to use and apply the basic fundamental concepts in python as a high level programming language.
 
 _______
 # Python Programming Language
